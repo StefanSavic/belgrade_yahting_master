@@ -1,0 +1,250 @@
+body{
+    font-size:40px;
+    color:#ffffff;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: hidden;
+}
+
+/*
+Write Comments DUDE :)
+*/
+
+
+h1{
+    margin: 0;
+}
+
+h1.logo_heading{
+    left: 150px;
+    top: 0px;
+}
+
+nav{
+    right: 100px;
+}
+
+nav a{
+    font-family: Dosis;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+section{
+    width: 100%;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+a img{
+    width: 40px;
+    height: 40px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background:#66ccff;*/
+    color:#ffffff;
+    padding-top:1px;
+    min-height:70px;
+    border-bottom:#ffffff 2px solid;
+    font-family: Sail;
+    background-color:rgba(137, 167, 209,0.7);
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+    font-family: sans-serif;
+}
+
+header #branding{
+    float:left;
+}
+
+header #breanding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+}
+
+/* Showcase */
+#showcase{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background:url("../img/showcase.jpg");
+    text-align:center;
+    z-index: 9999999;
+    background-size: cover;
+    background-position: center right;
+    font-family: 'Sail', cursive;
+    margin-bottom: 0.5em;
+}
+.showcase .container{
+    margin: auto;
+    padding: 40px;
+}
+#showcase h1{
+    font-size:55px;
+}
+#showcase p{
+    margin: 0;
+    font-size:30px;
+    padding: 0;
+}
+
+article.content-container .price{
+    border: 1px solid whitesmoke;
+    padding: .5em;
+    font-size: 30px;
+    color:black;
+    background: rgba(225,225,225,0.5);
+}
+/*ABOUT*/
+.general-style{
+    display: flex;
+    background: #ffffff;
+    color:black;
+    text-align: center;
+    background: url("../img/sunce-neko-sranje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    opacity: 0.9;
+
+}
+.content-container{
+    padding: 1em;
+}
+.general-style p{
+    /*background: rgba(255,255,255,0.5);*/
+    margin: auto;
+    margin-bottom: 1em;
+    font-size: 30px;
+    padding: 16px;
+    max-width: 500px;
+    /*color: black;*/
+}
+
+.page-title{
+    font-size: 50px;
+}
+
+
+#gallery{
+    padding-top: 0.5em;
+
+}
+
+.poster{
+    display: flex;
+    flex-wrap: wrap;
+}
+.poster-item{
+    /*border:1px solid black;*/
+    /*height: auto;*/
+    /*width: 50%;*/
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.yaht-1{
+    background-size: contain;
+    background-image: url("../img/yaht2.jpg");
+    background-repeat: no-repeat;
+}
+.yaht-2{
+    background-size: contain;
+    background-image: url("../img/yaht3.jpg");
+    background-repeat: no-repeat;
+}
+.yaht-3{
+    background-size: contain;
+    background-image: url("../img/yaht4.jpg");
+    background-repeat: no-repeat;
+}
+.yaht-4{
+    background-size: contain;
+    background-image: url("../img/yaht5.jpg");
+    background-repeat: no-repeat;
+}
+.yaht-5{
+    background-size: contain;
+    background-image: url("../img/yaht6.jpg");
+    background-repeat: no-repeat;
+}
+.yaht-6{
+    background-size: contain;
+    background-image: url("../img/yaht7.jpg");
+    background-repeat: no-repeat;
+}
+
+#contact{
+    margin-top: 0.5em;
+}
+
+footer{
+    font-family: 'Sail', cursive;
+    color:black;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    text-align:center;
+    
+}
+
+@media only screen and (max-width:348px){
+    #showcase h1{
+        font-size: 45px;
+    }
+    .general-style p{
+        font-size: 22px;
+        /*width: 150px;*/
+   }
+}
