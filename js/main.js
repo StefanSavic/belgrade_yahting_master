@@ -36,7 +36,12 @@
             } // End if
         });
 
+        var offsetTop = $('body').offset().top;
 
+        
+
+
+        console.log($('body').offset().top);
 
 
     });
