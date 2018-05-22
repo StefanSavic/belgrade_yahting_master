@@ -30,6 +30,16 @@ nav a{
     font-family: Dosis;
 }
 
+/*
+Sticky nav 
+*/
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 .container{
     width:90%;
     margin:auto;
@@ -106,6 +116,7 @@ header #breanding h1{
 }
 
 header nav{
+    margin: 0 auto;
     float:right;
 }
 
@@ -155,19 +166,21 @@ article.content-container .price{
     background-attachment: fixed;
     backdrop-filter: blur(2px);
     opacity: 0.9;
-
+}
+.general-style a{
+    margin: 0 auto;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
 }
 .content-container{
     padding: 1em;
+
 }
 .general-style p{
-    /*background: rgba(255,255,255,0.5);*/
     margin: auto;
     margin-bottom: 1em;
-    font-size: 30px;
-    padding: 16px;
-    max-width: 500px;
-    /*color: black;*/
+    font-size: 25px;
 }
 
 .page-title{
@@ -227,6 +240,12 @@ img{
 
 #contact{
     margin-top: 0.5em;
+    padding: 2em 0;
+}
+
+footer img{
+    transform: translateY(16px);
+    margin-left: 35px
 }
 
 footer{
@@ -239,12 +258,12 @@ footer{
     
 }
 
-@media only screen and (max-width:348px){
+@media only screen and (max-width:425px){
     #showcase h1{
         font-size: 45px;
     }
-    .general-style p{
-        font-size: 22px;
+    .general-style a{
+        font-size: 19px;
         /*width: 150px;*/
    }
 }
