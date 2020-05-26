@@ -43,6 +43,11 @@
 
         console.log($('body').offset().top);
 
+        $('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 160
+});
+
 
     });
 

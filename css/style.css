@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 body{
     font-size:40px;
     color:#ffffff;
@@ -35,11 +39,28 @@ nav{
 nav a{
     font-family: Dosis;
 }
-
+.by-border-bottom{
+    border-bottom: 2px solid white ;
+}
 /*
 Sticky nav 
 */
-
+.navigation__wrapper{
+    width: 100%;
+    padding:5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation__wrapper #branding{
+    display: flex;
+    align-items: center;
+    /* min-width: 400px; */
+}
+#branding img{
+    max-width: 95px;
+    height: auto;
+}
 .main-nav-scrolled {
   position: fixed;
   width: 100%;
@@ -82,8 +103,9 @@ a img{
     /*height: 40px;*/
 }
 #instafeed a img{
-    width: 600px;
+    /*width: 600px;*/
     height: auto;
+    max-height: 347px;
 }
 header{
     display: flex;
@@ -95,8 +117,8 @@ header{
     min-height:70px;
     border-bottom:#ffffff 2px solid;
     font-family: Sail;
-    background-color:rgba(137, 167, 209,0.7);
-    /*position: fixed;*/
+    background-color:rgba(137, 167, 209,0.5);
+    position: fixed;
         width: 100%;
     z-index: 999;
 
@@ -113,6 +135,10 @@ header a{
     font-weight:bold;
     font-size: 20px;
     margin-right: 10px;
+    
+}
+header a:hover{
+   border-bottom: 2px solid #ffffff;
 }
 
 header li{
@@ -131,8 +157,8 @@ header #breanding h1{
 }
 
 header nav{
-    margin: 0 auto;
-    float:right;
+    /* margin: 0 auto;
+    float:right; */
 }
 
 /* Showcase */
@@ -140,13 +166,13 @@ header nav{
     display:flex;
     flex-direction: column;
     height: 100vh;
-    background:url("../img/showcase.jpg");
+    background:url("../img/showcase2.jpg");
     text-align:center;
     z-index: 9999999;
     background-size: cover;
     background-position: center right;
     font-family: 'Sail', cursive;
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
 }
 .showcase .container{
     margin: auto;
@@ -175,12 +201,15 @@ article.content-container .price{
     color:black;
     text-align: center;
     background: url("../img/sunce-neko-sranje.jpg");
+    background: url("../img/belgrade-yachting-about.jpg");
+    background: url("../img/belgrade-yachting-about1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color:white;
     background-attachment: fixed;
     backdrop-filter: blur(2px);
     opacity: 0.9;
+    height: 100vh;
 }
 .general-style a{
     margin: 0 auto;
@@ -201,13 +230,6 @@ article.content-container .price{
 .page-title{
     font-size: 50px;
 }
-
-
-#gallery{
-    padding-top: 0.5em;
-
-}
-
 .poster{
     display: flex;
     flex-wrap: wrap;
@@ -260,7 +282,9 @@ img{
 
 footer img{
     transform: translateY(16px);
-    margin-left: 35px
+    margin-left: 35px;
+    width:40px;
+    height: 40px;
 }
 
 footer{
@@ -281,4 +305,18 @@ footer{
         font-size: 19px;
         /*width: 150px;*/
    }
+}
+
+/*insta*/
+
+.insta-wrapp h3{ 
+    color:black;
+    text-align:center;
+ }
+.insta-wrapp{
+    margin: 0 auto;
+}
+
+.insta-wrapp img{
+        /*padding:2em;*/
 }
