@@ -59,6 +59,7 @@ Sticky nav
 .navigation__wrapper__logo-link {
     text-transform: none;
     align-items: center;
+    display: flex;
 }
 
 .navigation__wrapper__logo-link:hover {
