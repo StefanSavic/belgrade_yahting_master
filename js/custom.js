@@ -28,7 +28,7 @@ fetch("https://www.instagram.com/belgradeyachting/?__a=1") // Call the fetch fun
 		// This is where you run code if the server returns any errors
 	});
 
-setTimeout(() => {
+setInterval(() => {
 	var str = '<div class="row">'
 	Instagramfeed.forEach(function (image) {
 		
