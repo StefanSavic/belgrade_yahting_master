@@ -118,7 +118,7 @@ a img{
 }
 #instafeed a img{
     /*width: 600px;*/
-    height: auto;
+    /* height: auto; */
     max-height: 347px;
 }
 header{
@@ -258,6 +258,12 @@ img{
     width: 100%;
     height: auto;
 }
+
+#gallery{
+    color: black;
+    text-align: center;
+    /* padding-top: 110px; */
+}
 .yaht-1{
     background-size: contain;
     background-image: url("../img/yaht2.jpg");
@@ -302,7 +308,8 @@ footer img{
 }
 
 footer{
-    font-family: 'Sail', cursive;
+    font-weight: bold;
+    /* font-family: 'Sail', cursive; */
     color:black;
     margin:0;
     padding:0;
@@ -323,6 +330,17 @@ footer{
 
 /*insta*/
 
+.image-wrapper img{
+    /* max-height: 250px; */
+    /* max-width: 250px; */
+    /* max-width: 100px; */
+    /* margin-bottom: 22px;
+    max-height: 300px;
+    width: auto; */
+    object-fit: cover;
+    height: 337px;
+    margin-bottom: 10px;
+}
 .insta-wrapp h3{ 
     color:black;
     text-align:center;
