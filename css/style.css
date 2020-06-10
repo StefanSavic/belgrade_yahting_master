@@ -451,12 +451,19 @@ footer{
         /*width: 150px;*/
     }
 
+    .hero-title{
+        font-size: 40px;
+    }
+
 
 }
 
 /*insta*/
 
 
+.image-wrapper a{
+    width: 100%;
+}
 .image-wrapper img{
     /* max-height: 250px; */
     /* max-width: 250px; */
